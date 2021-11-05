@@ -12,13 +12,12 @@ const UrlMessage = require('viber-bot').Message.Url;
 const PLUS_BUTTON_KEYBOARD  = require('./../views/menu').PLUS_BUTTON_KEYBOARD
 
 
-// A controller that deals with the SMS related tasks. 
+// A controller that deals with  tracking number 
 module.exports= (message, response) => {
 
     const trData = message.trackingData
 
-    // trData.Q has the last question asked in order to proper store the user's Answer 
-    // Everything is stored in trData that is passed as tracking data in order to complite the conversation
+   
     switch (trData.Q){
         
         case ("Number"):{

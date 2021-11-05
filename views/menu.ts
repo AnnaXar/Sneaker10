@@ -1,6 +1,5 @@
-// All the menus and keyboards used.
-// Easy change of the app look and feel by just chaning this file.
 
+//keyboard used for greeting
 module.exports.SAMPLE_KEYBOARD = {
 	"Type": "keyboard",
 	"InputFieldState":"regular",
@@ -23,7 +22,7 @@ module.exports.SAMPLE_KEYBOARD = {
 		}
 	]
 };
-
+//keyboard for adding a new order
 module.exports.PLUS_BUTTON_KEYBOARD = {
 	
 	"Type": "keyboard",
@@ -51,7 +50,7 @@ module.exports.PLUS_BUTTON_KEYBOARD = {
 	 
 
 
-
+//keyboard for the main menu
 module.exports.MAIN_KEYBOARD = {
 	"Type": "keyboard",
 	"InputFieldState":"regular",
@@ -103,7 +102,7 @@ module.exports.MAIN_KEYBOARD = {
 	]
 };
 
-
+//keyboard for the available shops to get your package
 
 module.exports.SHOPS_KEYBOARD = {
 	"Type": "keyboard",
@@ -114,11 +113,8 @@ module.exports.SHOPS_KEYBOARD = {
 		{
 			"Columns": 2,
 			"Rows": 2,
-
-            "Text":"<font color=”#000000” size=15><b>Ερμού 51 \n Διαθεσιμότητα:5</b></font>",
-			
+			"Text":"<font color=”#000000”><b>Ερμού 51</b></font><font color=”#000000”><br></font>Διαθεσιμότητα⇨5<font color=”#000000”></font>",
 			"BgColor": "#FFE603",
-			
 			"BgLoop": true,
 			"ActionType": "reply",
 			"ActionBody": "Παραλαβή",
@@ -132,8 +128,8 @@ module.exports.SHOPS_KEYBOARD = {
 			"Columns": 2,
 			"Rows": 2,
 			"BgColor":"#FFE603",
-            "Text":"<font color=”#000000” size=15><b>River West \n Διαθεσιμότητα:2</b></font>",
-			"BgLoop": true,
+			"Text":"<font color=”#000000”><b>River West</b></font><font color=”#000000”><br></font>Διαθεσιμότητα⇨2<font color=”#000000”></font>",
+            "BgLoop": true,
 			"ActionType": "reply",
 			"ActionBody": "Παραλαβή",
 			"TextVAlign":"middle",
@@ -145,7 +141,7 @@ module.exports.SHOPS_KEYBOARD = {
 			"Columns": 2,
 			"Rows": 2,
 			"BgColor":"#FFE603",
-            "Text":"<font color=”#000000” size=15><b>Λ. Δημάρχου Αγγέλου Μεταξά 13\n Διαθεσιμότητα:1</b></font>",
+			"Text":"<font color=”#000000”><b>Λ. Δημάρχου Αγγέλου Μεταξά 13</b></font><font color=”#000000”><br></font>Διαθεσιμότητα⇨1<font color=”#000000”></font>", 
 			"BgLoop": true,
 			"ActionType": "reply",
 			"ActionBody": "Παραλαβή",

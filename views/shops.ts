@@ -8,7 +8,7 @@ let SAMPLE_RICH_MEDIA =
    "Type":"rich_media",
    "ButtonsGroupColumns":6,
    "ButtonsGroupRows":7,
-   "BgColor":"#C0C0C0",
+   "BgColor":"#ffffff",
    "Buttons":[]
 }
 //first shop
@@ -32,7 +32,7 @@ let SAMPLE_RICH_MEDIA =
          "Text":"<font color=#323232><b>Sneaker10</b></font><font color=#777777><br></font>Ερμού 51,Σύνταγμα<font color=#6fc133></font>",
          "TextSize":"medium",
          "TextVAlign":"middle",
-         "TextHAlign":"left",
+         "TextHAlign":"middle",
          "Silent":true
       },
      
@@ -40,11 +40,11 @@ let SAMPLE_RICH_MEDIA =
          "Columns":6,
          "Rows":1,
         
-         "BgColor":"#FFFF00",
+         "BgColor":"#000000",
          "ActionType":"reply",
          "ActionBody":"Ώρες λειτουργίας",
          "Text":"<font color='#FFFF00'>Ωράρια</font>",
-         "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
+         
          "TextSize":"large",
          "TextVAlign":"middle",
          "TextHAlign":"middle",
@@ -56,8 +56,8 @@ let SAMPLE_RICH_MEDIA =
          "Rows":1,
          "ActionType":"open-url",
          "ActionBody":"tel:2105646",
-         "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-         "Text":"<font color='#FFFF00'>Κλήση 📞</font>",
+         "BgColor":"#ffff00",
+         "Text":"<font color='#000000'>Κλήση 📞</font>",
          "TextSize":"medium",
          "TextVAlign":"middle",
          "TextHAlign":"middle",
@@ -86,7 +86,7 @@ let SAMPLE_RICH_MEDIA =
             "Text":"<font color=#323232><b>Sneaker10</b></font><font color=#777777><br></font>Αιγάλεω,RiverWest<font color=#6fc133></font>",
             "TextSize":"medium",
             "TextVAlign":"middle",
-            "TextHAlign":"left",
+            "TextHAlign":"middle",
             "Silent":true
          },
         
@@ -94,11 +94,11 @@ let SAMPLE_RICH_MEDIA =
             "Columns":6,
             "Rows":1,
            
-            "BgColour":"#FFFF00",
+            "BgColor":"#000000",
             "ActionType":"reply",
             "ActionBody":"Ώρες λειτουργίας",
             "Text":"<font color='#FFFF00'>Ωράρια</font>",
-            "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
+            
             "TextSize":"large",
             "TextVAlign":"middle",
             "TextHAlign":"middle",
@@ -110,8 +110,8 @@ let SAMPLE_RICH_MEDIA =
             "Rows":1,
             "ActionType":"open-url",
             "ActionBody":"tel:2105646",
-            "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-            "Text":"<font color='#FFFF00'>Κλήση 📞</font>",
+            "BgColor":"#FFFF00",
+            "Text":"<font color='#000000'>Κλήση 📞</font>",
             "TextSize":"small",
             "TextVAlign":"middle",
             "TextHAlign":"middle",
@@ -137,15 +137,15 @@ let SAMPLE_RICH_MEDIA =
             "Text":"<font color=#323232><b>Sneaker10</b></font><font color=#777777><br></font>Γλυφάδα,Λ. Δημάρχου Αγγέλου Μεταξά 13<font color=#6fc133></font>",
             "TextSize":"medium",
             "TextVAlign":"middle",
-            "TextHAlign":"left",
+            "TextHAlign":"middle",
             "Silent":true
          },
         
          {
             "Columns":6,
             "Rows":1,
-            "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-            "BgColor":"#FFFF00",
+            
+            "BgColor":"#000000",
             "ActionType":"reply",
             "ActionBody":"Ώρες λειτουργίας",
             "Text":"<font color='#ffff00'>Ωράρια</font>",
@@ -161,8 +161,8 @@ let SAMPLE_RICH_MEDIA =
             "Rows":1,
             "ActionType":"open-url",
             "ActionBody":"tel:2105646",
-            "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-            "Text":"<font color='#FFFF00'>Κλήση 📞</font>",
+            "BgColor":"#ffff00",
+            "Text":"<font color='#000000'>Κλήση 📞</font>",
             "TextSize":"small",
             "TextVAlign":"middle",
             "TextHAlign":"middle",

@@ -1,12 +1,10 @@
-
-
-
+//carousel that displays the new products
 let SAMPLETWO_RICH_MEDIA =
 {
    "Type":"rich_media",
    "ButtonsGroupColumns":6,
    "ButtonsGroupRows":7,
-   "BgColor":"#C0C0C0",
+   "BgColor":"#ffffff",
    "Buttons":[]
 }
 
@@ -35,7 +33,7 @@ let SAMPLETWO_RICH_MEDIA =
          "Columns":6,
          "Rows":1,
          "ActionType":"reply",
-         "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
+         "BgColor":"#000000",
          "ActionBody":"Καταχώρηση Παραγγελίας",
          "Text":"<font color='#FFFF00'>Το θέλω</font>",
          "TextSize":"large",
@@ -49,8 +47,8 @@ let SAMPLETWO_RICH_MEDIA =
          "Rows":1,
          "ActionType":"open-url",
          "ActionBody":"https://www.sneaker10.gr/",
-         "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-         "Text":"<font color='#FFFF00'>Περισσότερς Επιλογές</font>",
+         "BgColor":"#ffff00",
+         "Text":"<font color='#000000'>Περισσότερς Επιλογές</font>",
          "TextSize":"small",
          "TextVAlign":"middle",
          "TextHAlign":"middle",
@@ -81,7 +79,7 @@ let SAMPLETWO_RICH_MEDIA =
        "Columns":6,
        "Rows":1,
        "ActionType":"reply",
-       "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
+       "BgColor":"#000000",
        "ActionBody":"Καταχώρηση Παραγγελίας",
        "Text":"<font color='#FFFF00'>Το θέλω</font>",
        "TextSize":"large",
@@ -94,9 +92,9 @@ let SAMPLETWO_RICH_MEDIA =
        "Columns":6,
        "Rows":1,
        "ActionType":"open-url",
-       "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
        "ActionBody":"https://www.sneaker10.gr/",
-       "Text":"<font color='#FFFF00'>Περισσότερς Επιλογές</font>",
+       "BgColor":"#ffff00",
+       "Text":"<font color='#000000'>Περισσότερς Επιλογές</font>",
        "TextSize":"small",
        "TextVAlign":"middle",
        "TextHAlign":"middle",
@@ -127,8 +125,8 @@ let SAMPLETWO_RICH_MEDIA =
        "Columns":6,
        "Rows":1,
        "ActionType":"reply",
-       "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
        "ActionBody":"Καταχώρηση Παραγγελίας",
+       "BgColor":"#000000",
        "Text":"<font color='#FFFF00'>Το θέλω</font>",
        "TextSize":"large",
        "TextVAlign":"middle",
@@ -141,8 +139,8 @@ let SAMPLETWO_RICH_MEDIA =
        "Rows":1,
        "ActionType":"open-url",
        "ActionBody":"https://www.sneaker10.gr/",
-       "Image":"https://cdn.picpng.com/button/button-the-button-icon-web-pages-66164.png",
-       "Text":"<font color='#FFFF00'>Περισσότερς Επιλογές</font>",
+       "BgColor":"#ffff00",
+       "Text":"<font color='#000000'>Περισσότερς Επιλογές</font>",
        "TextSize":"small",
        "TextVAlign":"middle",
        "TextHAlign":"middle",

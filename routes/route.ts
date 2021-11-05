@@ -1,9 +1,6 @@
-
-
 export {}
 
 var express = require("express");
-
 const greeting = require("./../controllers/greeting");
 const KeyboardMessage = require('viber-bot').Message.Keyboard;
 const main = require("./../controllers/main");
@@ -11,14 +8,14 @@ const ΜΑΙΝ_KEYBOARD = require('./../views/menu').MAIN_KEYBOARD
 const TextMessage = require("viber-bot").Message.Text;
 const shops= require("./../controllers/shops");
 const timeschedule=require("./../controllers/timeschedule");
-//const callShop=require("./../controllers/callShop");
 const postOrder=require("./../controllers/postOrder");
 const orders=require("./../controllers/orders");
 const delivery=require("./../controllers/delivery");
 const newdeliverystatus=require("./../controllers/newdeliverystatus");
 const products=require("./../controllers/products");
 const comeANDget=require("./../controllers/comeANDget");
-
+const RichMediaMessage = require('viber-bot').Message.RichMedia;
+const MAIN_KEYBOARD = require('./../views/menu').MAIN_KEYBOARD
 
 
 // Every message is redirected to the appropriate controller throw here.
@@ -47,11 +44,7 @@ module.exports = (message, response) => {
          timeschedule(message,response)
          break;
       }
-      //press "κλήση" button
-     // case "b":{
-       //  callShop(message,response)
-        // break;
-   //}
+   
    case "καταχώρηση παραγγελίας":{
       postOrder (message,response)
       break;
@@ -92,8 +85,12 @@ module.exports = (message, response) => {
          break;
 
          }
-         else{
-            greeting(message, response)
+         else if (['http','https'].includes(msg.toLowerCase('gr').split(':')[0])){
+            response
+            .send([
+            (new RichMediaMessage("", MAIN_KEYBOARD,null))
+        ])
+        .catch(err => { console.log(err) })
          }
          break;
       }
