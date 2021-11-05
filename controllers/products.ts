@@ -6,7 +6,7 @@ const RichMediaMessage = require('viber-bot').Message.RichMedia;
 const MAIN_KEYBOARD = require('./../views/menu').MAIN_KEYBOARD
 const SAMPLETWO_RICH_MEDIA = require('./../views/products').SAMPLETWO_RICH_MEDIA
 
-
+//a controller that responds when you select the functionality products
 module.exports = (message, response) => {
     response
     .send([new TextMessage('Επέλεξε ένα από τα hot new releases για να τα αποκτήσεις, αλλιώς τσέκαρε άλλα κομμάτια της συλλογής μας πατώντας περισσότερες επιλογές!',MAIN_KEYBOARD),

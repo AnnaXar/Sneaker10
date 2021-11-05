@@ -6,7 +6,7 @@ const ΜΑΙΝ_KEYBOARD = require('./../views/menu').MAIN_KEYBOARD
 const RichMediaMessage = require('viber-bot').Message.RichMedia;
 const SAMPLE_RICH_MEDIA = require('./../views/shops').SAMPLE_RICH_MEDIA
 const MAIN_KEYBOARD = require('./../views/menu').MAIN_KEYBOARD
-
+//a controller that responds when you choose the functionality shops
 module.exports = (message, response) => {
     response
     .send(

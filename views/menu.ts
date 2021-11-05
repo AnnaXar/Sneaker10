@@ -38,7 +38,7 @@ module.exports.PLUS_BUTTON_KEYBOARD = {
             "Text":"<font color=”#00000” size=28><b>Πρσοσθήκη Νέας Παραγγελίας</b></font>",
 			"BgLoop": true,
 			"ActionType": "reply",
-			"ActionBody": "jj",
+			"ActionBody": "Προσθήκη νέας παραγγελίας",
 			"TextVAlign":"middle",
 			"TextHAlign":"middle",
 			"Silent":true

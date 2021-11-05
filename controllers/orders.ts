@@ -6,7 +6,7 @@ const RichMediaMessage = require('viber-bot').Message.RichMedia;
 const PLUS_BUTTON_KEYBOARD = require('./../views/menu').PLUS_BUTTON_KEYBOARD
 const SAMPLETHREE_RICH_MEDIA = require('./../views/orders').SAMPLETHREE_RICH_MEDIA
 
-
+// a controller that responds when you choose the functionality orders
 module.exports = (message, response) => {
     response
     .send([

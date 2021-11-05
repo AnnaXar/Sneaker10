@@ -5,7 +5,7 @@ const TextMessage = require("viber-bot").Message.Text;
 const SHOPS_KEYBOARD = require('./../views/menu').SHOPS_KEYBOARD
 
 
-// A controller responding with a welcome message
+// A controller that responds when you place an order
 module.exports = (message, response) => {
     response
     .send([

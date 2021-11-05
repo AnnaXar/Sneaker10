@@ -57,7 +57,7 @@ module.exports = (message, response) => {
       delivery (message,response)
       break;
    }
-   case "jj":{
+   case "προσθήκη νέας παραγγελίας":{
       
          newdeliverystatus(message,response)
          break;
@@ -74,7 +74,7 @@ module.exports = (message, response) => {
       {
          response
          .send([
-             new TextMessage("Ελπίζω να σε βοήθησα, καλή συνεχεια.")
+             new TextMessage("Ελπίζω να σε βοήθησα, καλή συνεχεια.👋")
          ])
          .catch(err => { console.log(err) })
          break;
@@ -85,6 +85,7 @@ module.exports = (message, response) => {
          break;
 
          }
+         //when you get a url or telephone
          else if (['http','https'].includes(msg.toLowerCase('gr').split(':')[0])){
             response
             .send([
