@@ -1,0 +1,8 @@
+# Logs
+logs
+
+# node
+node_modules/
+
+
+secret/
