@@ -86,10 +86,11 @@ module.exports = (message, response) => {
 
          }
          //when you get a url or telephone
-         else if (['http','https'].includes(msg.toLowerCase('gr').split(':')[0])){
+         else if (['http','https','tel'].includes(msg.toLowerCase('gr').split(':')[0])){
             response
             .send([
             (new RichMediaMessage("", MAIN_KEYBOARD,null))
+            
         ])
         .catch(err => { console.log(err) })
          }

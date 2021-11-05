@@ -36,7 +36,7 @@ module.exports= (message, response) => {
         trData.Q = "Number"
         response
         .send([
-            new TextMessage("Δώσε το tracking number που έχεις καταχωρήσει την παραγγελία",PLUS_BUTTON_KEYBOARD),
+            new TextMessage("Δώσε το tracking number τηw παραγγελίαw",PLUS_BUTTON_KEYBOARD),
         ],
         trData)
         .catch(err => { console.log(err) })
@@ -46,7 +46,7 @@ module.exports= (message, response) => {
        
         response
         .send([
-            new TextMessage("Καταχωρήθηκε επιτυχώς",MAIN_KEYBOARD)
+            new TextMessage("Καταχωρήθηκε επιτυχώς στις ενεργές παραγγελίες✔️",MAIN_KEYBOARD)
             
         ])
         .catch(err => { console.log(err) })
