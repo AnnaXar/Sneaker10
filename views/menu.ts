@@ -35,7 +35,7 @@ module.exports.PLUS_BUTTON_KEYBOARD = {
 			"Columns": 6,
 			"Rows": 2,
 			"BgColor":"#FFE603",
-            "Text":"<font color=”#00000” size=28><b>Πρσοσθήκη Νέας Παραγγελίας</b></font>",
+            "Text":"<font color=”#00000” size=28><b>Προσθήκη Νέας Παραγγελίας</b></font>",
 			"BgLoop": true,
 			"ActionType": "reply",
 			"ActionBody": "Προσθήκη νέας παραγγελίας",

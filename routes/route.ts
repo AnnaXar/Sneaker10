@@ -93,7 +93,12 @@ module.exports = (message, response) => {
         ])
         .catch(err => { console.log(err) })
          }
+         else{
+            greeting(message,response)
+            break;
+         }
          break;
+      
       }
    }
 
